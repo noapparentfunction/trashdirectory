@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>random quote</title>
+		<script language="JavaScript" type="text/javascript" src="quoteArray.js"></script>
+		<script language="JavaScript" type="text/javascript">
+		
+			function getQuote(){
+				var thisquote=Math.floor(Math.random()*(quotes.length));
+				document.write(quotes[thisquote]);
+				
+				}
+		
+			</script>
+		</head>
+		<body>
+		testing a quote here: 
+			<script language="JavaScript" type="text/javascript">
+		
+				getQuote();
+			
+			</script>
+		</body>
+	</html>
